@@ -99,7 +99,7 @@ export default {
     },
   },
   methods: {
-    async onClickDelet(id) {
+    async onClickDelete(id) {
       await this.$store.dispatch('categories/delete', id)
     },
   },
